@@ -1,0 +1,33 @@
+/*
+ *
+ *
+ *  Author: techyrick.com
+ */
+
+#include <stdio.h>
+//#include <conio.h>
+
+void main() {
+
+  int radius;
+  float PI = 3.142;
+  float surface_area_of_sphere;
+
+//	clrscr();
+
+	printf(" Program to calculate Surface Area of a Sphere :  ");
+
+	printf("\n\n Enter the Radius of Sphere : ");
+	scanf("%d", &radius);
+    
+    
+    
+    surface_area_of_sphere = 4*PI*radius*radius;
+
+
+	printf("\n\n Surface area of Sphere with side as %d = %lf",radius,surface_area_of_sphere);
+
+//	getch();
+
+
+}
